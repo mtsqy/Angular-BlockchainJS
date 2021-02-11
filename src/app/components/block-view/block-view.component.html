@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5 class="card-title">
+                    <span>Address</span>
+                </h5>
+                <div class="text-truncate" [style.color]="'#' + block.hash.substring(0,6)">
+                    <small>{{block.hash}}</small>
+                </div>
+                <h5 class="card-title">
+                    <span>Previous Hash</span>
+                </h5>
+                <div class="text-truncate">
+                    <small>{{block.previousHash}}</small>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <h5 class="card-title">
+                    <span>Nonce</span>
+                </h5>
+                <div class="text-truncate text-muted">
+                    <small>{{block.nonce}}</small>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <h5 class="card-title">
+                    <span>Timestamp</span>
+                </h5>
+                <div class="text-truncate text-muted">
+                    <small>{{convertDate(block.timestamp)}}</small>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

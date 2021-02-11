@@ -1,0 +1,96 @@
+.card {
+    cursor: pointer;
+    box-shadow: 13px 22px 34px 0 #dfd7ff;
+    padding: 1.8vw;
+    border-radius: 1.4vw;
+    background-color: #fff;
+    border: 1.5px solid #f5f5f5;
+    opacity: .8;
+}
+
+main {
+    display: flex;
+    padding: 2vw 5vw;
+    padding-top: 7vw;
+}
+
+.container {
+    padding: 2vw;
+    width: 50%;
+    &-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #685bc7;
+    color: #fff;
+    box-shadow: 13px 22px 34px 0 #dfd7ff;
+    border-radius: 1.6vw;
+    padding: .9vw 1.4vw;
+    outline: none;
+    border: none;
+}
+
+.form {
+    &-group {
+        display: flex;
+        margin: 2vw 0;
+        padding: 0 2vw;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+        &.button {
+            justify-content: flex-end;
+        }
+    }
+    &-control {
+        font-size: 1vw;
+        width: 60%;
+        padding-right: 2vw;
+        height: 2.7vw;
+        padding: .6vw 1.2vw;
+        color: #685bc7;
+        border-radius: 1.6vw;
+        border: 1.5px solid #f5f5f5;
+        &:focus {
+            border: 2px solid #685bc7;
+        }
+    }
+    &-label {
+        color: #685bc7;
+    }
+}
+
+table {
+    padding: 1.8vw;
+    margin-bottom: 4vw;
+    position: relative;
+    width: 100%;
+    border-radius: 1.4vw;
+    box-shadow: 13px 22px 34px 0 #dfd7ff;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+th {
+    text-align: center;
+    padding: 1vw 0;
+    max-width: 20vw;
+}
+
+tr {
+    text-align: center;
+    max-width: 20vw;
+}
+
+td {
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 1vw;
+    max-width: 20vw;
+}
+
+  

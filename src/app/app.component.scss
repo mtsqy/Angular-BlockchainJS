@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 2.4vw 3.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-brand {
+        font-weight: bold;
+        font-size: 1.4vw;
+        letter-spacing: .04vw;
+        &:hover {
+            opacity: .9;
+        }
+        &:active {
+            color: #fff;
+        }
+    }
+    &-link {
+        color: #685bc7;
+        border: 1px solid transparent;
+        background-color: transparent;
+        box-shadow: none;
+        transition: border .4s ease-in;
+        &:hover {
+            border: 1px solid #685bc7;
+        }
+    }
+}
+
+.notify {
+    background-color: #685bc7;
+    color: #fff;
+    padding: .4vw .6vw;
+    border-radius: 1.6vw;
+    margin-left: .2vw;
+}
+
+.contact {
+    transition: background-color .4s;
+    &:hover {
+        // background-color: #685bc7;
+        // color: #fff;
+        .notify {
+            color: #685bc7;
+            background-color: #fff;
+        }
+    }
+}
