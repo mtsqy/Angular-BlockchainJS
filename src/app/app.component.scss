@@ -35,11 +35,11 @@
     padding: .4vw .6vw;
     border-radius: 1.6vw;
     margin-left: .2vw;
-    transition: .4s;
+    transition: all ease-in .4s;
 }
 
 .contact {
-    transition: background-color .4s;
+    transition: all ease-in .4s;
     &:hover {
         .notify {
             color: #685bc7;
